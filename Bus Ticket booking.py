@@ -1,0 +1,13 @@
+adult = 20
+child = adult*(70/100)
+adult_total = int(input("enter adult number of tickets: "))
+child_total = int(input("enter child number of tickets: "))
+print("========= BUS TICKET =========")
+print()
+print("Adults       :",adult_total)
+print("Child        :",child_total)
+print("Adult Total  :",adult*adult_total)
+print("Child Total  :",child*child_total)
+print()
+print("----------------------")
+print("Grand Total  :",(adult*adult_total)+(child*child_total))
